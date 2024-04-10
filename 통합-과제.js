@@ -69,18 +69,20 @@ function draw() {
 }
 
 function startScreenSetup() {
-  // 배경 이미지 표시
-  image(backgroundImage, 0, 0, width, height);
-
-  // 시작 화면 요소들 생성
-  startButton = createButton('시작');
-  startButton.position(280, 300);
-  startButton.mousePressed(startGame);
+    // 배경 이미지 표시
+    image(backgroundImage, 0, 0, width, height);
   
-  difficultyButton = createButton('난이도 설정');
-  difficultyButton.position(250, 400);
-  difficultyButton.mousePressed(showDifficultyButtons);
-}
+    // 시작 화면 요소들 생성
+    startButton = createButton('시작');
+    startButton.size(150, 50);
+    startButton.position(220, 280);
+    startButton.mousePressed(startGame);
+    
+    difficultyButton = createButton('난이도 설정');
+    difficultyButton.size(150, 50);
+    difficultyButton.position(220, 340);
+    difficultyButton.mousePressed(showDifficultyButtons);
+  }
 
 function showStartScreen() {
     // 배경 이미지 표시
@@ -101,6 +103,7 @@ function showStartScreen() {
     text('현재 난이도: ' + difficulty.toUpperCase(), width / 2, 240);
     pop();
   }
+  
 function showGameOverScreen() {
     // 게임 오버 스크린 표시
     fill(0);
@@ -164,23 +167,26 @@ function reStartGame() { // 게임 재시작
     pickLocation(); // 초기 음식 위치 설정
   }
 
-function showDifficultyButtons() {
-  // 난이도 설정 버튼을 누르면 실행되는 함수
-  // 난이도 설정 버튼을 숨기고, 난이도 선택 버튼들을 표시
-  difficultyButton.hide(); // 난이도 설정 버튼 숨기기
+  function showDifficultyButtons() {
+    // 난이도 설정 버튼을 누르면 실행되는 함수
+    // 난이도 설정 버튼을 숨기고, 난이도 선택 버튼들을 표시
+    difficultyButton.hide(); // 난이도 설정 버튼 숨기기
+    
+    let easyButton = createButton('EASY');
+    easyButton.size(80, 40);
+    easyButton.position(160, 350);
+    easyButton.mousePressed(setEasy);
+    
+    let normalButton = createButton('NORMAL');
+    normalButton.size(80, 40);
+    normalButton.position(250, 350);
+    normalButton.mousePressed(setNormal);
   
-  let easyButton = createButton('쉬움');
-  easyButton.position(200, 450);
-  easyButton.mousePressed(setEasy);
-  
-  let normalButton = createButton('보통');
-  normalButton.position(250, 450);
-  normalButton.mousePressed(setNormal);
-
-  let hardButton = createButton('어려움');
-  hardButton.position(300, 450);
-  hardButton.mousePressed(setHard);
-}
+    let hardButton = createButton('HARD');
+    hardButton.size(80, 40);
+    hardButton.position(340, 350);
+    hardButton.mousePressed(setHard);
+  }
 
 function setEasy() {
   difficulty = 'easy'; // 난이도를 'easy'로 설정
