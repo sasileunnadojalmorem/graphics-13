@@ -13,7 +13,14 @@
   + 게임 배경 수정
 * * *
 <시작 화면>     
-![Alt text]("https://github.com/rex6928/code/blob/main/menu.PNG"  )   
+<p align="center">
+    <img src="https://github.com/sasileunnadojalmorem/graphics-13/assets/79616817/67625232-0248-4673-aa3f-4a162db903a2" width="400" height="400">
+    </p>
+<p align="center">
+    <img src="https://github.com/sasileunnadojalmorem/graphics-13/assets/79616817/7b24f9a9-1170-4eac-941e-0ec21434f8d9" width="400" height="400">
+    </p>
+
+    
 <난이도 설정 화면>   
 ![Alt text](https://github.com/rex6928/code/blob/main/difficult%20menu.PNG,width="400" height="400")   
 
