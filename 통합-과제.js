@@ -243,10 +243,10 @@ function scoreboard() {
   textFont("Georgia"); // 폰트 설정
   textSize(18); // 텍스트 크기 설정
   text("점수: ", 30, 625); // 점수 텍스트 표시
-  text("최고점: ", 540, 625); // 최고 점수 텍스트 표시
+  text("최고점: ", 500, 625); // 최고 점수 텍스트 표시
   text("보너스 점수: " ,250 ,625);
-  text(s.bounsscore, 320,625);
-  text(s.score, 60, 625); // 현재 점수 표시
+  text(s.bounsscore, 350,625);
+  text(s.score, 80, 625); // 현재 점수 표시
   text(s.highscore, 580, 625); // 최고 점수 표시
 }
 
