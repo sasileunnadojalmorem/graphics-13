@@ -83,19 +83,24 @@ function startScreenSetup() {
 }
 
 function showStartScreen() {
-  // 배경 이미지 표시
-  image(backgroundImage, 0, 0, width, height);
-
-  // '스네이크 게임' 텍스트 표시
-  textSize(40);
-  fill(255);
-  textAlign(CENTER);
-  text('스네이크 게임', width / 2, 150);
-
-  // 현재 난이도 표시
-  textSize(20);
-  text('현재 난이도: ' + difficulty.toUpperCase(), width / 2, 250);
-}
+    // 배경 이미지 표시
+    image(backgroundImage, 0, 0, width, height);
+  
+    // '스네이크 게임' 텍스트 표시
+    push();
+    textSize(50);
+    fill(255);
+    stroke(0);
+    strokeWeight(6);
+    textStyle(BOLD);
+    textAlign(CENTER);
+    text('스네이크 게임', width / 2, 170);
+    // 현재 난이도 표시
+    textSize(24);
+    strokeWeight(4);
+    text('현재 난이도: ' + difficulty.toUpperCase(), width / 2, 240);
+    pop();
+  }
 function showGameOverScreen() {
     // 게임 오버 스크린 표시
     fill(0);
