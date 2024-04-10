@@ -9,6 +9,6 @@
   2. 종료화면
   3. 뱀게임 내에서의 적
     <p align="center">
-    <img src="https://github.com/sasileunnadojalmorem/graphics-13/assets/79616817/b87419ab-9da2-4dc1-b611-02879f3d5148">
+    <img src="https://github.com/sasileunnadojalmorem/graphics-13/assets/79616817/b87419ab-9da2-4dc1-b611-02879f3d5148" width="200" height="400">
   </p>
      
