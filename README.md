@@ -9,7 +9,7 @@
   2. 종료화면
   3. 뱀게임 내에서의 적 - 전재민
     <p align="center">
-    <img src="[https://github.com/sasileunnadojalmorem/graphics-13/assets/79616817/b87419ab-9da2-4dc1-b611-02879f3d5148](https://github.com/sasileunnadojalmorem/graphics-13/assets/79616817/5b4ca7c9-5435-40fa-8e3e-480a574a293e)" width="400" height="400">
+    <img src="https://github.com/sasileunnadojalmorem/graphics-13/assets/79616817/5b4ca7c9-5435-40fa-8e3e-480a574a293e" width="400" height="400">
     </p>
     뱀게임 내에서 사용자의 입력을 받아 움직이는 snake 말고도 스스로 움직이는 enemy함수를 작성하였다
     enemy함수의 특징으로는 키입력을 받지않고도 스스로 움직일수 있는 특징이있다.
