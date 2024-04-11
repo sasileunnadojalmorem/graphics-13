@@ -28,12 +28,15 @@
    + 뱀이 사망할시 종료화면을 추가하고 신기록 달성시에는 표시해줌
 * * *
 <시작화면 수정>
+
 ![스크린샷 2024-04-11 204945](https://github.com/sasileunnadojalmorem/graphics-13/assets/127822717/cf6ecdee-4960-40bb-bde8-253578aca7b0)
 
 <뱀 그라데이션>
+
 ![스크린샷 2024-04-11 205152](https://github.com/sasileunnadojalmorem/graphics-13/assets/127822717/f0ac5fb4-8270-492d-8a04-c5c3d9308a4f)
 
 <게임 오버 화면>
+
 ![스크린샷 2024-04-11 205246](https://github.com/sasileunnadojalmorem/graphics-13/assets/127822717/b84730cf-f97b-4b93-9787-a5edcc69554b)
 * * *
 
